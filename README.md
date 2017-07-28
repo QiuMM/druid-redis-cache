@@ -8,7 +8,7 @@ Just download the Latest release file `druid-redis-cache-0.11.0.tar.gz` and deco
 * commons-pool2-2.4.2.jar
 * jedis-2.9.0.jar
 
-Copy all these jars into your druid extensions directory. Then, add "druid-example-extension" to druid.extensions.loadList in common.runtime.properties to instruct Druid to load the extension.
+Copy all these jars into your druid extensions directory. Then, add "druid-redis-cache" to druid.extensions.loadList in common.runtime.properties to instruct Druid to load the extension.
 More details of loading extensions to your Druid: http://druid.io/docs/latest/operations/including-extensions.html
 
 # Requirement
